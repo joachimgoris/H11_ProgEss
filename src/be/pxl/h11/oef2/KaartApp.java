@@ -37,6 +37,7 @@ public class KaartApp {
 				}
 				input = invoer.next();
 			}while(input!="n");
+			invoer.close();
 	}
 	
 	private static void vullArray(Soort s, ArrayList<Kaart> kaarten) {
