@@ -36,7 +36,7 @@ public class KaartApp {
 					}
 				}
 				input = invoer.next();
-			}while(input!="n");
+			}while(!input.equals("n"));
 			invoer.close();
 	}
 	
